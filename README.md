@@ -1,81 +1,57 @@
-## Educational Kids Game App Development  
+![Tuwaiq Academy Logo](assets/README/tuwaiq_academy_logo.png)
 
-![](https://paper-attachments.dropboxusercontent.com/s_EC856D14A88170213B067D8FD667610D4B2512CF2A7941C2EA4858B180A6A81F_1739186832780_image.png)
+# Educational-Kids-Game
+Educational-Kids-Game is a sleek and engaging mobile app designed to immerse young players in a variety of fun educational mini-games. It features a well-structured user interface across multiple screens, ensuring smooth and intuitive navigation throughout the experience. From browsing available games and tracking progress to exploring challenges and viewing player profile, each screen is thoughtfully crafted with clarity and consistency in mind. The app focuses solely on user interface design, with no backend functionality or game logic implemented.
 
 
-### 📘 Introduction
-Welcome to the **Flutter UI Implementation** project!  
-In this project, you will use the **Flutter** framework to implement a set of user interfaces based on a Figma design. The goal is to **enhance your proficiency** in Flutter development and UI implementation.
 
----
+# Getting Started
+### Prerequisites
 
-### 🎯 UI to Implement
-You are required to implement the following Figma design user interfaces:
+Flutter SDK 
 
-**🔗 Figma Design:**  
-[Educational Kids Game - Figma](https://www.figma.com/file/hr7vmPgtKJd95quaTZr5bt/Educational-kids-game-(Community)?type=design&node-id=0%3A1&mode=design&t=z9KUqxH5qF2QA9xp-1)
+A code editor (such as VS Code or Android Studio)
 
----
+### Installation
+1. Clone the repository:
 
-### 🧱 Mandatory List of Widgets
-Make sure to use the following widgets in your implementation:
+   ```
+   git clone https://github.com/2Mhd6/Educational-Kids-Game.git
+   ```
 
-- `Column`  
-- `Row`  
-- `ListView` or related scrollable widgets  
-- `AppBar`  
-- `TextField`  
-- `Icon`  
-- `Button`  
-- `Image`  
+2. Navigate to the project directory:
 
----
+   ```
+   cd Educational-Kids-Game
+   ```
+   
+3. Install dependencies:
 
-### ✅ Requirements
+   ```
+   flutter pub get
+   ```
 
-#### 📂 Code Organization
-- Organize your Flutter project in a **clean and structured** manner.
+4. Run the app:
 
-#### 🧩 Widget Usage
-- Ensure **all listed widgets** are used in your UI implementation.
+   ```
+   flutter run
+   ```
 
-#### 🔁 Navigation
-- Include **navigation between screens** or sections in your app.
+## UI Design
+Check out the UI design on Figma: 🔗 [View on Figma](https://www.figma.com/design/hr7vmPgtKJd95quaTZr5bt/Educational-kids-game--Community-?node-id=0-1&p=f&t=yvhNfwApoyKO6HwJ-0)
 
----
+## Output
+<img src = "assets/README/educational_kids_game_walkthrough.gif" alt = "Educational-Kids-Game - Walkthrough" width = "30%" height ="30%">
 
-### 📤 Submission Guidelines
 
-1. **Fork** the repository and **clone** it to your local machine.  
-2. Create a **new branch** with your name, using the format:  
-   `FirstName-LastName`  
-   Example: `Nasser-GH`
-3. Commit your changes **frequently** and push them.  
-4. Finally, **create a pull request** to the original repository.
 
----
+## Languages & Frameworks
 
-### ❗ Notes
+**Dart**
 
-- This is an **individual** assignment. **No collaboration** is allowed.
-- **Do not** add or remove any elements from the UI.
-- The UI must match the provided Figma design **exactly**.
-- Include **screenshots** of your UI in the project’s README file.
+**Flutter**
 
----
+## Created By
 
-### 🕐 Deadline
-**May 4, 2025 at 10 AM**
-
----
-
-### 📌 Additional Notes
-If you need **clarification or help**, don’t hesitate to ask.
-
----
-
-> “Creating engaging educational experiences can spark a lifelong love for learning.  
-> Design with empathy and creativity!” 🌟
-
----
+[**Mohammed S. Alshammari**](https://www.linkedin.com/in/mohammedsalshammari/)
 
