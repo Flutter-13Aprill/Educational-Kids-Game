@@ -1,81 +1,77 @@
-## Educational Kids Game App Development  
+#  Educational Kids Game - Flutter UI Project
 
-![](https://paper-attachments.dropboxusercontent.com/s_EC856D14A88170213B067D8FD667610D4B2512CF2A7941C2EA4858B180A6A81F_1739186832780_image.png)
-
-
-### 📘 Introduction
-Welcome to the **Flutter UI Implementation** project!  
-In this project, you will use the **Flutter** framework to implement a set of user interfaces based on a Figma design. The goal is to **enhance your proficiency** in Flutter development and UI implementation.
+A beautiful and interactive Flutter app for kids that mimics a Figma design.  
+This project focuses on building clean and responsive UI with navigation and interactivity.
 
 ---
 
-### 🎯 UI to Implement
-You are required to implement the following Figma design user interfaces:
+##  Screenshots
 
-**🔗 Figma Design:**  
-[Educational Kids Game - Figma](https://www.figma.com/file/hr7vmPgtKJd95quaTZr5bt/Educational-kids-game-(Community)?type=design&node-id=0%3A1&mode=design&t=z9KUqxH5qF2QA9xp-1)
 
----
 
-### 🧱 Mandatory List of Widgets
-Make sure to use the following widgets in your implementation:
+###  Login Screen  
+<img src="kids_game/assets/screenshots/login.png" width="350"/>
 
-- `Column`  
-- `Row`  
-- `ListView` or related scrollable widgets  
-- `AppBar`  
-- `TextField`  
-- `Icon`  
-- `Button`  
-- `Image`  
+###  Home Screen  
+<img src="kids_game/assets/screenshots/home.png" width="350"/>
 
----
+###  Target Screen  
+<img src="kids_game/assets/screenshots/target.png" width="350"/>
 
-### ✅ Requirements
+###  Verbal Skills Screen  
+<img src="kids_game/assets/screenshots/verbal_skills.png" width="350"/>
 
-#### 📂 Code Organization
-- Organize your Flutter project in a **clean and structured** manner.
-
-#### 🧩 Widget Usage
-- Ensure **all listed widgets** are used in your UI implementation.
-
-#### 🔁 Navigation
-- Include **navigation between screens** or sections in your app.
+###  Profile Screen  
+<img src="kids_game/assets/screenshots/profile.png" width="350"/>
+<img src="kids_game/assets/screenshots/profile_2.png" width="350"/>
 
 ---
 
-### 📤 Submission Guidelines
+##  Features
 
-1. **Fork** the repository and **clone** it to your local machine.  
-2. Create a **new branch** with your name, using the format:  
-   `FirstName-LastName`  
-   Example: `Nasser-GH`
-3. Commit your changes **frequently** and push them.  
-4. Finally, **create a pull request** to the original repository.
-
----
-
-### ❗ Notes
-
-- This is an **individual** assignment. **No collaboration** is allowed.
-- **Do not** add or remove any elements from the UI.
-- The UI must match the provided Figma design **exactly**.
-- Include **screenshots** of your UI in the project’s README file.
+- Login screen UI.
+- Smooth AppBar and BottomNavigationBar with custom colors.
+- Browse and track different skill categories.
+- Custom progress indicators and locked units.
+- Friends statistics and challenge achievements.
+- Fully matches the provided Figma design.
 
 ---
 
-### 🕐 Deadline
-**May 4, 2025 at 10 AM**
+## Widgets Used
+
+- `AppBar`, `BottomNavigationBar`
+- `Column`, `Row`
+- `ListView`, `SingleChildScrollView`
+- `TextField`, `Text`, `Icon`, `Image`
+- `Button`, `GestureDetector`
+- `Stack`, `Positioned`
+- `Container`, `Expanded`, `Spacer`
+
+
 
 ---
 
-### 📌 Additional Notes
-If you need **clarification or help**, don’t hesitate to ask.
+##  Getting Started
 
----
+```bash
+# 1. Clone the repo
+git clone https://github.com/manaalq/Educational-Kids-Game.git
 
-> “Creating engaging educational experiences can spark a lifelong love for learning.  
-> Design with empathy and creativity!” 🌟
+# 2. Go to the project directory
+cd Educational-Kids-Game
 
----
+
+# 3. Install packages
+flutter pub get
+
+# 4. Run the app
+flutter run
+
+Author
+
+Manal 
+GitHub: @manaalq
+
+
 
