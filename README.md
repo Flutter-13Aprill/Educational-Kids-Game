@@ -1,5 +1,5 @@
 ## Educational Kids Game App Development  
-![App Demo](assets/ezgif.com-video-to-gif-converter.gif)
+![App Demo](ezgif.com-video-to-gif-converter.gif)
 
 
 ### 📘 Introduction
