@@ -8,13 +8,13 @@ To teach them various subjects in a fun encourging way !
 
 The user will start in a login page after logging in,
 a friendly UI will face the kids they can easliy check their courses and know thier progress and they will be
-encourged by the Gamified methods includes:
+encourged by the Gamified methods includes:<br />
 
-1- Login Streak
-2- XP(Experience Points) after finishing courses
-3- Hearts for watching lessons per day (unlimited for paied accounts)
-4- Various Challenges
-5- Achievements 
+1- Login Streak<br />
+2- XP(Experience Points) after finishing courses<br />
+3- Hearts for watching lessons per day (unlimited for paied accounts)<br />
+4- Various Challenges<br />
+5- Achievements
 
 ---
 
