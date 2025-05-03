@@ -3,7 +3,8 @@
 An interactive and engaging Flutter application designed to make learning fun for children. This educational game combines colorful visuals, intuitive gameplay, and interactive elements to teach various skills in an enjoyable manner.
 
 ## 📱 Screenshots
-https://github.com/DvOmar76/Educational-Kids-Game/blob/main/educational_kid_game/ui.gif
+<img src="./ui.gif"
+style="width:6.69297in;height:6.67888in" />
 ## � Features
 - **Interactive Learning Modules**: Engaging activities that teach various skills
 - **Progress Tracking**: Visual indicators to show learning progress
