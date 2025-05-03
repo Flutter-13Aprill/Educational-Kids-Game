@@ -16,21 +16,21 @@ bite-sized challenges.
  – Track your progress and showcase your growth.
 – Take on daily brain-teasers 
 
-###Tech Stack
+### Tech Stack
 -Flutter
 
-###Installation
+### Installation
 1.Clone the reprository
 2.navigate to the project folder
 3.Install dependecies
 4.Run the app
 
-###How to use
+### How to use
 -open app
 -Login 
 -see challenges
 
-###Author
+### Author
 Lamees Al-Amri
 ---
 
