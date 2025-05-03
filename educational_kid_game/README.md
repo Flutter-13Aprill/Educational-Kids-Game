@@ -29,3 +29,9 @@ lib/widgets/: Contains reusable widgets used across the app.
 
 main.dart: The entry point of the application.
 
+
+### 🎯 UI to Implement
+You are required to implement the following Figma design user interfaces:
+
+**🔗 Figma Design:**  
+[Educational Kids Game - Figma](https://www.figma.com/file/hr7vmPgtKJd95quaTZr5bt/Educational-kids-game-(Community)?type=design&node-id=0%3A1&mode=design&t=z9KUqxH5qF2QA9xp-1)

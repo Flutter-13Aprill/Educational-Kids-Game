@@ -32,6 +32,7 @@ class CardWidget extends StatelessWidget {
           mainAxisAlignment:
               lock ? MainAxisAlignment.center : MainAxisAlignment.spaceBetween,
           children: [
+            // if card is lock is locked then show lock image 
             if (lock)
               Container(
                 margin: const EdgeInsets.only(bottom: 19),

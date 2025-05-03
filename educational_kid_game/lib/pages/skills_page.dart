@@ -60,7 +60,6 @@ class SkillsPage extends StatelessWidget {
               ),
             ),
 
-            // SizedBox(height: 53),
             Expanded(
               child: ListView(
                 children: [
@@ -82,7 +81,7 @@ class SkillsPage extends StatelessWidget {
                     ],
                   ),
                   SizedBox(height: 64),
-
+                  // show all circular 
                   CircularWidget(
                     lock: false,
                     pathImage: 'assets/images/pencil.png',
@@ -108,6 +107,7 @@ class SkillsPage extends StatelessWidget {
                       ),
                     ],
                   ),
+
                   CircularWidget(lock: true, pathImage: null, point: 1, title: '',),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,

@@ -94,7 +94,7 @@ class LoginPage extends StatelessWidget {
                             borderRadius: BorderRadius.circular(25),
                           ),
                         ),
-                        
+                        // go to home page 
                         child: Text(
                           "Go",
                           style: TextStyle(

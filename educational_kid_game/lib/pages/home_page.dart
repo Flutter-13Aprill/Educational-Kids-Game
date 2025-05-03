@@ -47,10 +47,25 @@ class HomePage extends StatelessWidget {
             Expanded(
               child: ListView(
                 children: [
-                  CardandpointWidget(title: 'Logical reasoning', subTitle: 'Unit 1', value: 0.5, point: '18/40',),
-                  CardandpointWidget(title: 'Artistic thinking', subTitle: 'Unit 1', value: 0.8, point: '35/40',),
-                  CardandpointWidget(title: 'Verbal skills', subTitle: 'Unit 1', value: 0.2, point: '3/40',),
-                 
+                  // show cards 
+                  CardandpointWidget(
+                    title: 'Logical reasoning',
+                    subTitle: 'Unit 1',
+                    value: 0.5,
+                    point: '18/40',
+                  ),
+                  CardandpointWidget(
+                    title: 'Artistic thinking',
+                    subTitle: 'Unit 1',
+                    value: 0.8,
+                    point: '35/40',
+                  ),
+                  CardandpointWidget(
+                    title: 'Verbal skills',
+                    subTitle: 'Unit 1',
+                    value: 0.2,
+                    point: '3/40',
+                  ),
                 ],
               ),
             ),
