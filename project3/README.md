@@ -44,26 +44,26 @@ encourged by the Gamified methods includes:
 ---
 ## 💻 installation
 
-1-All you have to do is to install dart and flutter from [HERE](https://dart.dev/get-dart).
+1- All you have to do is to install dart and flutter from [HERE](https://dart.dev/get-dart).
 
-2- download [Android Studio](https://developer.android.com/studio?hl=ar) to play the emulator or you can use any emulator you like.
+2- Download [Android Studio](https://developer.android.com/studio?hl=ar) to play the emulator or you can use any emulator you like.
 
-3- 
+3- Clone the repo from me 😎
 ```
 git clone https://github.com/AymanAlzahrani/Learning-App-UI.git
  ```
 
 
-4- 
+4- Go to your desktop the path you choosed 
 ```
- cd desktop/Food-Ordering-App-UI/assignment6
+ cd desktop/Educational-Kids-Game/project3
 ```
-5-
+5- Enter this line to open VSCode
 ```
 code .
 ```
 
-6-
+6- To run the app enter this line
 
 ```
 flutter run
