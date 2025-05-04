@@ -1,81 +1,95 @@
-## Educational Kids Game App Development  
+# Educational Kids Game App  
 
-![](https://paper-attachments.dropboxusercontent.com/s_EC856D14A88170213B067D8FD667610D4B2512CF2A7941C2EA4858B180A6A81F_1739186832780_image.png)
+### Overview 👀
 
-
-### 📘 Introduction
-Welcome to the **Flutter UI Implementation** project!  
-In this project, you will use the **Flutter** framework to implement a set of user interfaces based on a Figma design. The goal is to **enhance your proficiency** in Flutter development and UI implementation.
+This project is part of a Flutter bootcamp focused on developing a **Kids Education App UI**. The app provides an engaging educational experience through interactive learning modules and games designed to enhance children's skills. It also includes fun challenges and activities, where kids can track their progress, view their profile, and add friends to share their learning journey.
 
 ---
 
-### 🎯 UI to Implement
-You are required to implement the following Figma design user interfaces:
+### Design Prototype 🎨
 
-**🔗 Figma Design:**  
-[Educational Kids Game - Figma](https://www.figma.com/file/hr7vmPgtKJd95quaTZr5bt/Educational-kids-game-(Community)?type=design&node-id=0%3A1&mode=design&t=z9KUqxH5qF2QA9xp-1)
-
----
-
-### 🧱 Mandatory List of Widgets
-Make sure to use the following widgets in your implementation:
-
-- `Column`  
-- `Row`  
-- `ListView` or related scrollable widgets  
-- `AppBar`  
-- `TextField`  
-- `Icon`  
-- `Button`  
-- `Image`  
+Check out the UI design on Figma:
+[🔗 View on Figma]()
 
 ---
 
-### ✅ Requirements
+### Output 📱
 
-#### 📂 Code Organization
-- Organize your Flutter project in a **clean and structured** manner.
-
-#### 🧩 Widget Usage
-- Ensure **all listed widgets** are used in your UI implementation.
-
-#### 🔁 Navigation
-- Include **navigation between screens** or sections in your app.
 
 ---
 
-### 📤 Submission Guidelines
+### Features ⭐️
 
-1. **Fork** the repository and **clone** it to your local machine.  
-2. Create a **new branch** with your name, using the format:  
-   `FirstName-LastName`  
-   Example: `Nasser-GH`
-3. Commit your changes **frequently** and push them.  
-4. Finally, **create a pull request** to the original repository.
-
----
-
-### ❗ Notes
-
-- This is an **individual** assignment. **No collaboration** is allowed.
-- **Do not** add or remove any elements from the UI.
-- The UI must match the provided Figma design **exactly**.
-- Include **screenshots** of your UI in the project’s README file.
+- 📚 Access educational games and learning modules
+- 🎮 Fun and interactive challenges to improve skills
+- 👤 Create and manage user profiles
+- 👫 Add friends to track and share progress
+- 🎨 Colorful and child-friendly UI 
 
 ---
 
-### 🕐 Deadline
-**May 4, 2025 at 10 AM**
+### Tech Stack 💻
+
+- **Flutter**
+- **Dart**
 
 ---
 
-### 📌 Additional Notes
-If you need **clarification or help**, don’t hesitate to ask.
+### Installation 🛠️
+
+1. Clone the repository:
+
+```bash
+   git clone https://github.com/your-username/your-repo-name.git
+```
+
+2. Navigate to the project folder:
+
+```bash
+   cd your-repo-name
+```
+
+3. Install dependencies:
+
+```bash
+   flutter pub get
+```
+
+4. Run the app:
+
+```bash
+   flutter run
+```
 
 ---
 
-> “Creating engaging educational experiences can spark a lifelong love for learning.  
-> Design with empathy and creativity!” 🌟
+### Folder Structure 🔨
+
+```
+lib
+   ├── main.dart
+   └── screens
+       ├── challenges_screen.dart
+       ├── home_screen.dart
+       ├── login_screen.dart
+       ├── profile_screen.dart
+       └── verbal_skills.dart
+       
+       
+```
 
 ---
 
+### How to Use 📲
+
+1. Open the app
+2. Create or log into a profile
+3. Select a game or challenge
+4. Track progress in your profile and connect with friends
+
+---
+
+### Author👩‍💻
+**Lamya Alsuhaibani**  
+[🌐 Portfolio Website](https://picayune-mouth-ade.notion.site/Lamya-Alsuhaibani-310c29eda5ba40638fa895968d3f630d "My Portfolio Website")  
+[💼 LinkedIn](https://www.linkedin.com/in/lamya-a-alsuhaibani/ "My LinkedIn")
