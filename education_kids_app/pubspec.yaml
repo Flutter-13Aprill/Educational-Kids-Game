@@ -1,0 +1,53 @@
+name: education_kids_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/MENTAL.png
+  - assets/dainasor.png
+  - assets/3rd.png
+  - assets/ball.png
+  - assets/book.png
+  - assets/box.png
+  - assets/cactus.png
+  - assets/cat.png
+  - assets/clock.png
+  - assets/cristal.png
+  - assets/crown.png
+  - assets/fire.png
+  - assets/gaolRed.png
+  - assets/girl.png
+  - assets/girlOnSoft.png
+  - assets/goal.png
+  - assets/heart.png
+  - assets/hoouse.png
+  - assets/hourse.png
+  - assets/infinity.png
+  - assets/lightning.png
+  - assets/lock.png
+  - assets/numStar.png
+  - assets/party.png
+  - assets/peaple.png
+  - assets/peaplePurple.png
+  - assets/pencil.png
+  - assets/setting.png
+  - assets/tree.png
+  - assets/bike.png
+  - assets/gaol.png
+  - assets/row.png
+  - assets/houseWhite.png
