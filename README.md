@@ -8,7 +8,7 @@ In this project, the goal is to design and implement user interfaces for an Educ
 
 
 ---
-### Project Overview
+### 🔍 Project Overview
 ---
 
 <img src="ProjectOverview.gif" alt="Preview" width="350">
@@ -62,7 +62,7 @@ lib
 
 
 ---
-###🖊️ Author
+### 🖊️ Author
 Remas Alnugaithan
 
 
