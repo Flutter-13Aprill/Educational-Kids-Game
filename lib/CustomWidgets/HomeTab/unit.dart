@@ -4,10 +4,10 @@ import 'package:project3/Screens/verbal_skills_tab.dart';
 
 class Unit extends StatelessWidget {
   Unit({super.key, required this.unitTitle});
-  double number1 = Random().nextInt(25) + 5;
-  double number2 = Random().nextInt(25) + 2;
+  final double number1 = Random().nextInt(25) + 5;
+  final double number2 = Random().nextInt(25) + 2;
 
-  final unitTitle;
+  final String unitTitle;
   @override
   Widget build(BuildContext context) {
     final double progress = number1 / number2;

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:project3/Screens/Navigation_screen.dart';
+import 'package:project3/Screens/navigation_screen.dart';
 
 class LoginScreen extends StatelessWidget {
   @override
@@ -32,7 +32,7 @@ class LoginScreen extends StatelessWidget {
 
             TextField(
               decoration: InputDecoration(
-                hintText: "Username",
+                hintText: "Password",
                 filled: true,
                 fillColor: Colors.white,
                 border: OutlineInputBorder(

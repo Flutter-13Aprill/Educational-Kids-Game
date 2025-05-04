@@ -3,7 +3,6 @@ import 'package:project3/Screens/challenges_tab.dart';
 import 'package:project3/Screens/home_tab.dart';
 import 'package:project3/Screens/profile_tab.dart';
 import 'package:project3/Screens/settings_tab.dart';
-import 'package:project3/Screens/verbal_skills_tab.dart';
 
 class NavigationScreen extends StatefulWidget {
   const NavigationScreen({super.key});

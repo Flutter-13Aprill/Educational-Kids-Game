@@ -1,34 +1,39 @@
 import 'package:flutter/material.dart';
+import 'package:project3/CustomWidgets/ProfileTab/friends_mini_card.dart';
+import 'package:project3/CustomWidgets/ProfileTab/profile_card.dart';
+import 'package:project3/CustomWidgets/ProfileTab/statistcs_cards.dart';
+import 'package:project3/CustomWidgets/ProfileTab/user_card.dart';
 
 class ProfileTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView(
       children: [
-        ListTile(
-          title: Text('Nidhi Pandya', style: TextStyle(fontSize: 24)),
-          subtitle: Text('Nidhi12\nJoined March 2022'),
-        ),
+        UserCard(),
+
         Padding(
           padding: const EdgeInsets.all(16.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text('Statistics', style: TextStyle(fontSize: 20)),
-              CheckboxListTile(
-                title: Text('3 Day Streak'),
-                value: false,
-                onChanged: null,
+              FriendsMiniCard(),
+              SizedBox(height: 16),
+              Text(
+                'Statistics',
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
-              CheckboxListTile(
-                title: Text('1432 Total XP'),
-                value: true,
-                onChanged: null,
-              ),
+              SizedBox(height: 16),
+
+              StatistcsCards(),
             ],
           ),
         ),
-        ElevatedButton(child: Text('INVITE FRIENDS'), onPressed: () {}),
+        ProfileCard(
+          title: "Invite your friends",
+          description:
+              "Tell your friends it’s free and fun to learn on Mental up!",
+          imagePath: "assets/images/cat.png",
+        ),
       ],
     );
   }
