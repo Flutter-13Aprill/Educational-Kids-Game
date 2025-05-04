@@ -226,7 +226,7 @@ class HomeScreen extends StatelessWidget {
                                 ClipRRect(
                                   borderRadius: BorderRadius.circular(15),
                                   child: LinearProgressIndicator(
-                                    value: 0.6,
+                                    value: 0.9,
                                     minHeight: 12,
                                     color: Color(0xffECC055),
                                     backgroundColor: Color(0xffC4C4C4),
@@ -321,7 +321,7 @@ class HomeScreen extends StatelessWidget {
                                 ClipRRect(
                                   borderRadius: BorderRadius.circular(15),
                                   child: LinearProgressIndicator(
-                                    value: 0.6,
+                                    value: 0.4,
                                     minHeight: 12,
                                     color: Color(0xffECC055),
                                     backgroundColor: Color(0xffC4C4C4),

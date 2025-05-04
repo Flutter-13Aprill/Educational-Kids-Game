@@ -49,396 +49,491 @@ class UnitScreen extends StatelessWidget {
         child: ListView(
           children: [
             SizedBox(height: 20),
-            Column(
-              children: [
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    // Stack(
-                    //   children: [
-                    //     Container(
-                    //       alignment: Alignment.topCenter,
-                    //       height: 115,
-                    //       width: 200,
-                    //       decoration: BoxDecoration(
-                    //         borderRadius: BorderRadius.circular(15),
-                    //         color: Color(0x66C4C4C4),
-                    //         border: Border.all(color: Colors.black26, width: 2),
-                    //       ),
-                    //       child: Padding(
-                    //         padding: const EdgeInsets.only(top: 16),
-                    //         child: Text(
-                    //           "Unit 1",
-                    //           style: TextStyle(fontSize: 25),
-                    //         ),
-                    //       ),
-                    //     ),
-
-                    //     Positioned(
-                    //       bottom: 10,
-                    //       left: 10,
-                    //       right: 10,
-
-                    //       child: Stack(
-                    //         clipBehavior: Clip.none,
-                    //         children: [
-                    //           ClipRRect(
-                    //             borderRadius: BorderRadius.circular(15),
-                    //             child: LinearProgressIndicator(
-                    //               value: 0.6,
-                    //               minHeight: 12,
-                    //               color: Color(0xffECC055),
-                    //               backgroundColor: Color(0xffC4C4C4),
-                    //             ),
-                    //           ),
-
-                    //           Positioned(
-                    //             left: 0,
-                    //             top: -18,
-                    //             child: Image.asset(
-                    //               "assets/icons/crown-icon.png",
-                    //               width: 35,
-                    //               height: 35,
-                    //             ),
-                    //           ),
-                    //         ],
-                    //       ),
-                    //     ),
-                    //   ],
-                    // ),
-                  ],
-                ),
-                SizedBox(height: 20),
-
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Column(
-                      children: [
-                        Stack(
-                          alignment: Alignment.center,
-                          children: [
-                            Container(
-                              height: 90,
-                              width: 90,
-                              decoration: BoxDecoration(
-                                // color: Colors.grey[400],
-                                border: Border.all(
-                                  color: Color(0xffC4C4C4),
-                                  width: 6,
-                                ),
-                                shape: BoxShape.circle,
+            Padding(
+              padding: const EdgeInsets.only(top: 40),
+              child: Column(
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Stack(
+                        alignment: Alignment.topCenter,
+                        children: [
+                          Container(
+                            alignment: Alignment.center,
+                            height: 115,
+                            width: 200,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(15),
+                              color: Color(0x66C4C4C4),
+                              border: Border.all(
+                                color: Colors.black26,
+                                width: 2,
                               ),
                             ),
-
-                            Container(
-                              height: 70,
-                              width: 70,
-                              decoration: BoxDecoration(
-                                color: Color(0xff72BFC7),
-                                shape: BoxShape.circle,
-                              ),
+                            child: Padding(
+                              padding: const EdgeInsets.all(8.0),
                               child: Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: Image.asset(
-                                  "assets/images/pen-image.png",
+                                padding: const EdgeInsets.only(top: 12.0),
+                                child: Text(
+                                  "Unit 1",
+                                  style: TextStyle(fontSize: 22),
                                 ),
                               ),
                             ),
-                            Positioned(
-                              bottom: 4,
-                              right: 4,
-
-                              child: Stack(
-                                alignment: Alignment.center,
-                                children: [
-                                  Image.asset(
-                                    "assets/icons/crown-outline-icon.png",
-                                    height: 25,
-                                    width: 25,
+                          ),
+                          SizedBox(
+                            height: 100,
+                            width: 100,
+                            child: Stack(
+                              clipBehavior: Clip.none,
+                              children: [
+                                Positioned(
+                                  top: -50,
+                                  left: 0,
+                                  child: Image.asset(
+                                    width: 100,
+                                    height: 100,
+                                    'assets/images/horse-image.png',
                                   ),
-                                  Text("1"),
-                                ],
-                              ),
-                            ),
-                          ],
-                        ),
-                        Text("Intro"),
-                      ],
-                    ),
-                  ],
-                ),
-
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Column(
-                      children: [
-                        Stack(
-                          alignment: Alignment.center,
-                          children: [
-                            Container(
-                              height: 90,
-                              width: 90,
-                              decoration: BoxDecoration(
-                                // color: Colors.grey[400],
-                                border: Border.all(
-                                  color: Color(0xffC4C4C4),
-                                  width: 6,
                                 ),
-                                shape: BoxShape.circle,
-                              ),
+                              ],
                             ),
-
-                            Container(
-                              height: 70,
-                              width: 70,
-                              decoration: BoxDecoration(
-                                color: Color(0xff72BFC7),
-                                shape: BoxShape.circle,
-                              ),
-                              child: Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: Image.asset(
-                                  "assets/images/book-image.png",
+                          ),
+                          Positioned(
+                            bottom: 8,
+                            left: 24,
+                            child: Row(
+                              children: [
+                                Stack(
+                                  clipBehavior: Clip.none,
+                                  children: [
+                                    ClipRRect(
+                                      borderRadius: BorderRadius.circular(15),
+                                      child: SizedBox(
+                                        width: 100,
+                                        child: LinearProgressIndicator(
+                                          value: 0.4,
+                                          minHeight: 12,
+                                          color: Color(0xffECC055),
+                                          backgroundColor: Color(0xffC4C4C4),
+                                        ),
+                                      ),
+                                    ),
+                                    Positioned(
+                                      left: 0,
+                                      top: -18,
+                                      child: Image.asset(
+                                        "assets/icons/crown-icon.png",
+                                        width: 30,
+                                        height: 30,
+                                      ),
+                                    ),
+                                  ],
                                 ),
-                              ),
-                            ),
-                            Positioned(
-                              bottom: 4,
-                              right: 4,
+                                SizedBox(width: 10),
 
-                              child: Stack(
-                                alignment: Alignment.center,
-                                children: [
-                                  Image.asset(
-                                    "assets/icons/crown-outline-icon.png",
-                                    height: 25,
-                                    width: 25,
+                                Text(
+                                  "3/40",
+                                  style: TextStyle(
+                                    fontSize: 12,
+                                    color: Colors.grey[700],
                                   ),
-                                  Text("1"),
-                                ],
-                              ),
-                            ),
-                          ],
-                        ),
-                        Text("Phrases"),
-                      ],
-                    ),
-                    SizedBox(width: 12),
-                    Column(
-                      children: [
-                        Stack(
-                          alignment: Alignment.center,
-                          children: [
-                            Container(
-                              height: 90,
-                              width: 90,
-                              decoration: BoxDecoration(
-                                // color: Colors.grey[400],
-                                border: Border.all(
-                                  color: Color(0xffC4C4C4),
-                                  width: 6,
                                 ),
-                                shape: BoxShape.circle,
-                              ),
-                            ),
 
-                            Container(
-                              height: 70,
-                              width: 70,
-                              decoration: BoxDecoration(
-                                color: Color(0xff72BFC7),
-                                shape: BoxShape.circle,
-                              ),
-                              child: Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: Image.asset(
-                                  "assets/images/bike-image.png",
-                                ),
-                              ),
+                                // Text("بليز", style: TextStyle(fontSize: 12)),
+                              ],
                             ),
-                            Positioned(
-                              bottom: 4,
-                              right: 4,
+                          ),
+                        ],
+                      ),
 
-                              child: Stack(
-                                alignment: Alignment.center,
-                                children: [
-                                  Image.asset(
-                                    "assets/icons/crown-outline-icon.png",
-                                    height: 25,
-                                    width: 25,
+                      // Stack(
+                      //   children: [
+                      //     Container(
+                      //       alignment: Alignment.topCenter,
+                      //       height: 115,
+                      //       width: 200,
+                      //       decoration: BoxDecoration(
+                      //         borderRadius: BorderRadius.circular(15),
+                      //         color: Color(0x66C4C4C4),
+                      //         border: Border.all(color: Colors.black26, width: 2),
+                      //       ),
+                      //       child: Padding(
+                      //         padding: const EdgeInsets.only(top: 16),
+                      //         child: Text(
+                      //           "Unit 1",
+                      //           style: TextStyle(fontSize: 25),
+                      //         ),
+                      //       ),
+                      //     ),
+
+                      //     Positioned(
+                      //       bottom: 10,
+                      //       left: 10,
+                      //       right: 10,
+
+                      //       child: Stack(
+                      //         clipBehavior: Clip.none,
+                      //         children: [
+                      //           ClipRRect(
+                      //             borderRadius: BorderRadius.circular(15),
+                      //             child: LinearProgressIndicator(
+                      //               value: 0.6,
+                      //               minHeight: 12,
+                      //               color: Color(0xffECC055),
+                      //               backgroundColor: Color(0xffC4C4C4),
+                      //             ),
+                      //           ),
+
+                      //           Positioned(
+                      //             left: 0,
+                      //             top: -18,
+                      //             child: Image.asset(
+                      //               "assets/icons/crown-icon.png",
+                      //               width: 35,
+                      //               height: 35,
+                      //             ),
+                      //           ),
+                      //         ],
+                      //       ),
+                      //     ),
+                      //   ],
+                      // ),
+                    ],
+                  ),
+                  SizedBox(height: 20),
+
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Column(
+                        children: [
+                          Stack(
+                            alignment: Alignment.center,
+                            children: [
+                              Container(
+                                height: 90,
+                                width: 90,
+                                decoration: BoxDecoration(
+                                  // color: Colors.grey[400],
+                                  border: Border.all(
+                                    color: Color(0xffC4C4C4),
+                                    width: 6,
                                   ),
-                                  Text("1"),
-                                ],
-                              ),
-                            ),
-                          ],
-                        ),
-                        Text("Travel"),
-                      ],
-                    ),
-                  ],
-                ),
-
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Column(
-                      children: [
-                        Stack(
-                          alignment: Alignment.center,
-                          children: [
-                            Container(
-                              height: 90,
-                              width: 90,
-                              decoration: BoxDecoration(
-                                // color: Colors.grey[400],
-                                border: Border.all(
-                                  color: Color(0xffC4C4C4),
-                                  width: 6,
-                                ),
-                                shape: BoxShape.circle,
-                              ),
-                            ),
-
-                            Container(
-                              height: 70,
-                              width: 70,
-                              decoration: BoxDecoration(
-                                color: Color(0xff72BFC7),
-                                shape: BoxShape.circle,
-                              ),
-                              child: Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: Icon(
-                                  Icons.lock,
-                                  size: 35,
-                                  color: Colors.black38,
+                                  shape: BoxShape.circle,
                                 ),
                               ),
-                            ),
-                            Positioned(
-                              bottom: 4,
-                              right: 4,
 
-                              child: Image.asset(
-                                "assets/icons/crown-outline-icon.png",
-                                height: 25,
-                                width: 25,
-                              ),
-                            ),
-                          ],
-                        ),
-                      ],
-                    ),
-                  ],
-                ),
-
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Column(
-                      children: [
-                        Stack(
-                          alignment: Alignment.center,
-                          children: [
-                            Container(
-                              height: 90,
-                              width: 90,
-                              decoration: BoxDecoration(
-                                // color: Colors.grey[400],
-                                border: Border.all(
-                                  color: Color(0xffC4C4C4),
-                                  width: 6,
+                              Container(
+                                height: 70,
+                                width: 70,
+                                decoration: BoxDecoration(
+                                  color: Color(0xff72BFC7),
+                                  shape: BoxShape.circle,
                                 ),
-                                shape: BoxShape.circle,
-                              ),
-                            ),
-
-                            Container(
-                              height: 70,
-                              width: 70,
-                              decoration: BoxDecoration(
-                                color: Color(0xff72BFC7),
-                                shape: BoxShape.circle,
-                              ),
-                              child: Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: Icon(
-                                  Icons.lock,
-                                  size: 35,
-                                  color: Colors.black38,
+                                child: Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Image.asset(
+                                    "assets/images/pen-image.png",
+                                  ),
                                 ),
                               ),
-                            ),
-                            Positioned(
-                              bottom: 4,
-                              right: 4,
+                              Positioned(
+                                bottom: 4,
+                                right: 4,
 
-                              child: Image.asset(
-                                "assets/icons/crown-outline-icon.png",
-                                height: 25,
-                                width: 25,
-                              ),
-                            ),
-                          ],
-                        ),
-                      ],
-                    ),
-                    SizedBox(width: 12),
-                    Column(
-                      children: [
-                        Stack(
-                          alignment: Alignment.center,
-                          children: [
-                            Container(
-                              height: 90,
-                              width: 90,
-                              decoration: BoxDecoration(
-                                // color: Colors.grey[400],
-                                border: Border.all(
-                                  color: Color(0xffC4C4C4),
-                                  width: 6,
-                                ),
-                                shape: BoxShape.circle,
-                              ),
-                            ),
-
-                            Container(
-                              height: 70,
-                              width: 70,
-                              decoration: BoxDecoration(
-                                color: Color(0xff72BFC7),
-                                shape: BoxShape.circle,
-                              ),
-                              child: Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: Icon(
-                                  Icons.lock,
-                                  size: 35,
-                                  color: Colors.black38,
+                                child: Stack(
+                                  alignment: Alignment.center,
+                                  children: [
+                                    Image.asset(
+                                      "assets/icons/crown-outline-icon.png",
+                                      height: 25,
+                                      width: 25,
+                                    ),
+                                    Text("1"),
+                                  ],
                                 ),
                               ),
-                            ),
-                            Positioned(
-                              bottom: 4,
-                              right: 4,
+                            ],
+                          ),
+                          Text("Intro"),
+                        ],
+                      ),
+                    ],
+                  ),
 
-                              child: Image.asset(
-                                "assets/icons/crown-outline-icon.png",
-                                height: 25,
-                                width: 25,
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Column(
+                        children: [
+                          Stack(
+                            alignment: Alignment.center,
+                            children: [
+                              Container(
+                                height: 90,
+                                width: 90,
+                                decoration: BoxDecoration(
+                                  // color: Colors.grey[400],
+                                  border: Border.all(
+                                    color: Color(0xffC4C4C4),
+                                    width: 6,
+                                  ),
+                                  shape: BoxShape.circle,
+                                ),
                               ),
-                            ),
-                          ],
-                        ),
-                      ],
-                    ),
-                  ],
-                ),
-              ],
+
+                              Container(
+                                height: 70,
+                                width: 70,
+                                decoration: BoxDecoration(
+                                  color: Color(0xff72BFC7),
+                                  shape: BoxShape.circle,
+                                ),
+                                child: Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Image.asset(
+                                    "assets/images/book-image.png",
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                bottom: 4,
+                                right: 4,
+
+                                child: Stack(
+                                  alignment: Alignment.center,
+                                  children: [
+                                    Image.asset(
+                                      "assets/icons/crown-outline-icon.png",
+                                      height: 25,
+                                      width: 25,
+                                    ),
+                                    Text("1"),
+                                  ],
+                                ),
+                              ),
+                            ],
+                          ),
+                          Text("Phrases"),
+                        ],
+                      ),
+                      SizedBox(width: 12),
+                      Column(
+                        children: [
+                          Stack(
+                            alignment: Alignment.center,
+                            children: [
+                              Container(
+                                height: 90,
+                                width: 90,
+                                decoration: BoxDecoration(
+                                  // color: Colors.grey[400],
+                                  border: Border.all(
+                                    color: Color(0xffC4C4C4),
+                                    width: 6,
+                                  ),
+                                  shape: BoxShape.circle,
+                                ),
+                              ),
+
+                              Container(
+                                height: 70,
+                                width: 70,
+                                decoration: BoxDecoration(
+                                  color: Color(0xff72BFC7),
+                                  shape: BoxShape.circle,
+                                ),
+                                child: Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Image.asset(
+                                    "assets/images/bike-image.png",
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                bottom: 4,
+                                right: 4,
+
+                                child: Stack(
+                                  alignment: Alignment.center,
+                                  children: [
+                                    Image.asset(
+                                      "assets/icons/crown-outline-icon.png",
+                                      height: 25,
+                                      width: 25,
+                                    ),
+                                    Text("1"),
+                                  ],
+                                ),
+                              ),
+                            ],
+                          ),
+                          Text("Travel"),
+                        ],
+                      ),
+                    ],
+                  ),
+
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Column(
+                        children: [
+                          Stack(
+                            alignment: Alignment.center,
+                            children: [
+                              Container(
+                                height: 90,
+                                width: 90,
+                                decoration: BoxDecoration(
+                                  // color: Colors.grey[400],
+                                  border: Border.all(
+                                    color: Color(0xffC4C4C4),
+                                    width: 6,
+                                  ),
+                                  shape: BoxShape.circle,
+                                ),
+                              ),
+
+                              Container(
+                                height: 70,
+                                width: 70,
+                                decoration: BoxDecoration(
+                                  color: Color(0xff72BFC7),
+                                  shape: BoxShape.circle,
+                                ),
+                                child: Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Icon(
+                                    Icons.lock,
+                                    size: 35,
+                                    color: Colors.black38,
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                bottom: 4,
+                                right: 4,
+
+                                child: Image.asset(
+                                  "assets/icons/crown-outline-icon.png",
+                                  height: 25,
+                                  width: 25,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Column(
+                        children: [
+                          Stack(
+                            alignment: Alignment.center,
+                            children: [
+                              Container(
+                                height: 90,
+                                width: 90,
+                                decoration: BoxDecoration(
+                                  // color: Colors.grey[400],
+                                  border: Border.all(
+                                    color: Color(0xffC4C4C4),
+                                    width: 6,
+                                  ),
+                                  shape: BoxShape.circle,
+                                ),
+                              ),
+
+                              Container(
+                                height: 70,
+                                width: 70,
+                                decoration: BoxDecoration(
+                                  color: Color(0xff72BFC7),
+                                  shape: BoxShape.circle,
+                                ),
+                                child: Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Icon(
+                                    Icons.lock,
+                                    size: 35,
+                                    color: Colors.black38,
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                bottom: 4,
+                                right: 4,
+
+                                child: Image.asset(
+                                  "assets/icons/crown-outline-icon.png",
+                                  height: 25,
+                                  width: 25,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                      SizedBox(width: 12),
+                      Column(
+                        children: [
+                          Stack(
+                            alignment: Alignment.center,
+                            children: [
+                              Container(
+                                height: 90,
+                                width: 90,
+                                decoration: BoxDecoration(
+                                  // color: Colors.grey[400],
+                                  border: Border.all(
+                                    color: Color(0xffC4C4C4),
+                                    width: 6,
+                                  ),
+                                  shape: BoxShape.circle,
+                                ),
+                              ),
+
+                              Container(
+                                height: 70,
+                                width: 70,
+                                decoration: BoxDecoration(
+                                  color: Color(0xff72BFC7),
+                                  shape: BoxShape.circle,
+                                ),
+                                child: Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Icon(
+                                    Icons.lock,
+                                    size: 35,
+                                    color: Colors.black38,
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                bottom: 4,
+                                right: 4,
+
+                                child: Image.asset(
+                                  "assets/icons/crown-outline-icon.png",
+                                  height: 25,
+                                  width: 25,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ],
+              ),
             ),
           ],
         ),

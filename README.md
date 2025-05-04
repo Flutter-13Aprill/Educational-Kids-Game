@@ -5,15 +5,17 @@
 
 ---
 In this project, the goal is to design and implement user interfaces for an Educational Kids Game App, based on the provided Figma design. The objective is to replicate the UI exactly as shown in the Figma file [Educational Kids Game](https://www.figma.com/file/hr7vmPgtKJd95quaTZr5bt/Educational-kids-game-(Community)?type=design&node-id=0%3A1&mode=design&t=z9KUqxH5qF2QA9xp-1) to practice Flutter development and improve UI design implementation skills.
+
+
 ---
-
-
 ### Project Overview
 ---
 
+<img src="ProjectOverview.gif" alt="Preview" width="350">
+<img src="ProjectOverview.png" alt="Project Pages" style="width:100%; max-width:600px; display:block; margin:auto" />
 
 ---
-## ⚙️ Tech Stack
+### ⚙️ Tech Stack
 - **Flutter**
 - **Dart**
 
@@ -42,7 +44,7 @@ flutter pub get
  ```  
 
 ---
-### Folder Structure 
+### 📂 Folder Structure 
 
 ```
 lib
@@ -60,7 +62,7 @@ lib
 
 
 ---
-### Author
+###🖊️ Author
 Remas Alnugaithan
 
 
