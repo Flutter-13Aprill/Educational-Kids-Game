@@ -5,19 +5,19 @@ An engaging Flutter-based educational app designed for kids, featuring a friendl
 ## Screenshots
 
 ### Login Screen  
-![Login Screen](screenshots/login.png)
+![Login Screen](Screenshots/login.png)
 
 ### Home Screen  
-![Home Screen](screenshots/home.png)
+![Home Screen](Screenshots/home.png)
 
 ### Challenges Screen  
-![Challenges Screen](screenshots/challenges.png)
+![Challenges Screen](Screenshots/challenges.png)
 
 ### Profile Screen  
-![Profile Screen](screenshots/profile.png)
+![Profile Screen](Screenshots/profile.png)
 
 ### Settings Screen  
-![Settings Screen](screenshots/settings.png)
+![Settings Screen](Screenshots/settings.png)
 
 
 ## Features
