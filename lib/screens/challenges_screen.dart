@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 // -- Widget 
-import 'package:educational_kids_game_app/widgets/challenges_screen_widgets/achievement_widgets.dart';
+import 'package:educational_kids_game_app/widgets/challenges_screen_widgets/achievement_widget.dart';
 
 /// [ChallengesScreen] shows available challenges for the player to complete.
 class ChallengesScreen extends StatelessWidget {
@@ -75,15 +75,15 @@ class ChallengesScreen extends StatelessWidget {
         
                 SizedBox(height: 32),
         
-                AchievementWidgets(imagePath: 'assets/images/challenges_screen_images/art.png'),
+                AchievementWidget(imagePath: 'assets/images/challenges_screen_images/art.png'),
         
                 SizedBox(height: 32),
         
-                AchievementWidgets(imagePath: 'assets/images/challenges_screen_images/solid.png'),
+                AchievementWidget(imagePath: 'assets/images/challenges_screen_images/solid.png'),
         
                 SizedBox(height: 32),
         
-                AchievementWidgets(imagePath: 'assets/images/challenges_screen_images/Basketball.png'),
+                AchievementWidget(imagePath: 'assets/images/challenges_screen_images/Basketball.png'),
 
                 SizedBox(height: 32),
             ],
