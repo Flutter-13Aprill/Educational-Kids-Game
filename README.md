@@ -9,10 +9,9 @@ In this project, the goal is to design and implement user interfaces for an Educ
 
 ---
 ### 🔍 Project Overview
----
 
 <img src="ProjectOverview.gif" alt="Preview" width="350">
-<img src="ProjectOverview.png" alt="Project Pages" style="width:100%; max-width:600px; display:block; margin:auto" />
+<img src="ProjectPages.png" alt="Project Pages" style="width:100%; max-width:600px; display:block; margin:auto" />
 
 ---
 ### ⚙️ Tech Stack
