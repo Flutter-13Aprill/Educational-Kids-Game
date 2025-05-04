@@ -1,3 +1,5 @@
+![image alt](https://cdn.tuwaiq.edu.sa/landing/images/logo/logo-h.png)
+
 # 📘 Educational Kids Game (UI) – Overview
 This project is a playful Flutter app for kids with a clean, responsive design based on a Figma layout. It includes smooth navigation and interactive features.
 
