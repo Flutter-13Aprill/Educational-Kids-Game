@@ -1,0 +1,1 @@
+ /Users/solym/src/projects/project3/Educational-Kids-Game/.dart_tool/flutter_build/48616073f58796daf4175e31563351ac/native_assets.json: 

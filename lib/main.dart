@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:project3/Screens/login_tab.dart';
+import 'package:project3/Screens/login_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,8 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
+        scaffoldBackgroundColor: Color.fromRGBO(251, 245, 242, 1),
       ),
       title: 'Learning App',
       home: LoginScreen(),
