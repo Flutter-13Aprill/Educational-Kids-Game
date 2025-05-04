@@ -9,12 +9,13 @@ This project is part of a Flutter bootcamp focused on developing a **Kids Educat
 ### Design Prototype 🎨
 
 Check out the UI design on Figma:
-[🔗 View on Figma]()
+[🔗 View on Figma](https://www.figma.com/design/hr7vmPgtKJd95quaTZr5bt/Educational-kids-game--Community-?node-id=0-1&p=f&t=u11554YlbSp3Ka0w-0)
 
 ---
 
 ### Output 📱
 
+https://github.com/user-attachments/assets/5e6d051f-c160-4e54-b7a0-a1a80a57cf30
 
 ---
 
