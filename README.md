@@ -6,7 +6,10 @@ A beautiful Flutter app for learn as game .
 
 ## Screenshots
 
-![App](educational_kids_game/assets/screenshots/)
+![App Screenshot](educational_kids_game/assets/screenshots/1.png)
+![App Screenshot](educational_kids_game/assets/screenshots/2.png)
+![App Screenshot](educational_kids_game/assets/screenshots/3.png)
+
 
 
 ---
